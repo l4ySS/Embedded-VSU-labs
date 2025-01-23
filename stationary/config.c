@@ -1,0 +1,28 @@
+// Stepper pins
+#define NUM_PINS 4
+#define PIN_ARRAY {PB2, PB3, PB4, PB5}
+#define DDR_STEPPER DDRB
+#define PORT_STEPPER PORTB
+#define BUTTON1 PD2
+#define BUTTON2 PD3
+#define DDR_BUTTON DDRD
+#define PORT_BUTTON PORTD
+#define SEED_ADDRESS 0x00
+
+#define SPEAKER_PIN PB1
+#define PORT_SPEAKER PORTB 
+// LEDS
+#define RESET_LED PC0
+#define LED1 PC1
+#define LED2 PC2
+#define LED3 PC3
+#define DDR_LED DDRC
+#define PORT_LED PORTC
+
+// SWITCH
+#define SWITCH1 PD5
+#define SWITCH2 PD6
+#define SWITCH3 PD7
+#define DDR_SWITCH DDRD
+#define PIN_SWITCH PIND
+#define PORT_SWITCH PORTD
